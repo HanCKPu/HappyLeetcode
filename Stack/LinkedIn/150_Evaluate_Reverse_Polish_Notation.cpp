@@ -22,7 +22,7 @@ public:
             s.pop();
             int b = s.top();
             s.pop();
-            int c = token == "+" ? b + a :
+            int c = token == "+" ? b + a :              //注意先后顺序
                     token == "-" ? b - a :
                     token == "*" ? b * a : b / a;
             s.push(c);
