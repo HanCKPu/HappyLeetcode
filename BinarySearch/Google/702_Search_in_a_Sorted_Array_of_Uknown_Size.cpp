@@ -46,7 +46,7 @@ public:
 
 
 int main() {
-	Solution google;
+	Solution Google;
 
 	return 0;
 }
