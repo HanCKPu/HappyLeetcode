@@ -48,7 +48,7 @@ public:
             next[temps[i]] = i;
         }
         return waits;
-    }
+    } 
 };
 
 
