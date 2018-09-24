@@ -32,6 +32,11 @@ public:
 
         return ans.second == s.size()+1 ? "" : s.substr(ans.first, ans.second-ans.first+1);
     }
+
+    //follow up, allow one char difference
+    //str1 = acedbg, str2 = xcbe，那么返回cedb
+    //solution -> keep a window whose size = target.size(), starting from left to right for one loop    
+
 };
 
 
